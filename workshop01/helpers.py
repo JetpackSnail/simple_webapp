@@ -17,4 +17,4 @@ def get_rand_quote():
 def get_url():
     ''' Returns link to repository
     '''
-    return "https://www.<>.com"
+    return "https://github.com/JetpackSnail/simple_webapp"
