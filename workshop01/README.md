@@ -2,7 +2,7 @@
 
 ### How to run locally
 
-1) Install prequisites in virutal environment
+1) Install prequisites in virtual environment
 
 ```
 virtualenv .env/workshop01
@@ -13,5 +13,11 @@ pip3 install -r requirements.txt
 2) Launch flask app
 
 ```
-flask run
+flask --app application.py run
 ```
+
+### Deploying to AWS EBS
+
+Useful links
+- [Elastic Beanstalk CLI setup](https://github.com/aws/aws-elastic-beanstalk-cli-setup)
+- [Deploying Flask app to AWS EBS](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html)
